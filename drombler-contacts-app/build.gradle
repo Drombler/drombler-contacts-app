@@ -21,6 +21,10 @@ mainClassName = 'org.drombler.contactapp.ContactsApp'
 dependencies {
     compile 'com.gluonhq:charm:5.0.2'
     compile 'com.airhacks:afterburner.mfx:1.6.3'
+    compile 'org.igniterealtime.smack:smack-tcp:4.3.4'
+    compile 'org.igniterealtime.smack:smack-im:4.3.4'
+    compile 'org.igniterealtime.smack:smack-extensions:4.3.4'
+    compile 'org.igniterealtime.smack:smack-java7:4.3.4'
 }
 
 jfxmobile {
